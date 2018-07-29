@@ -13,3 +13,5 @@ video from disk.
 
 [Example 2-4](src/example_02_04.hs) *WIP* Adding a trackbar to a basic viewer
 for moving w/in the video file.
+
+[Example 2-5](src/example_02_05.hs) Load and smooth an image before displaying.

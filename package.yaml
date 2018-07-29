@@ -17,43 +17,26 @@ description:         Please see the README on GitHub at <https://github.com/nbar
 
 dependencies:
 - base >= 4.7 && < 5
+- opencv
+- bytestring
+- linear
 
-library:
-  source-dirs: src
+source-dirs:         src
+
+ghc-options:
+- -threaded
+- -rtsopts
+- -with-rtsopts=-N
 
 executables:
   example_02_01:
     main:                example_02_01.hs
-    source-dirs:         src
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - learning-opencv
-    - opencv
-    - bytestring
 
   example_02_03:
     main:                example_02_03.hs
-    source-dirs:         src
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - learning-opencv
-    - opencv
-    - bytestring
 
   example_02_04:
     main:                example_02_04.hs
-    source-dirs:         src
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - learning-opencv
-    - opencv
-    - bytestring
+
+  example_02_05:
+    main:                example_02_05.hs
