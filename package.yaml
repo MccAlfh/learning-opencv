@@ -40,3 +40,6 @@ executables:
 
   example_02_05:
     main:                example_02_05.hs
+
+  example_02_07:
+    main:                example_02_07.hs

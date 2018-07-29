@@ -15,3 +15,6 @@ video from disk.
 for moving w/in the video file.
 
 [Example 2-5](src/example_02_05.hs) Load and smooth an image before displaying.
+
+[Example 2-7](src/example_02_07.hs) The Canny edge detector writes its output to
+a single-channel (grayscale) image.
