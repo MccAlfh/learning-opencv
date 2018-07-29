@@ -18,8 +18,8 @@ main = do
         frames <- CV.videoCaptureGetI cap CVT.VideoCapPropFrameCount
         width <- CV.videoCaptureGetI cap CVT.VideoCapPropFrameWidth
         height <- CV.videoCaptureGetI cap CVT.VideoCapPropFrameHeight
-        putStrLn $ "Video has " ++ show(frames) ++ " frames of dimension("
-                   ++ show(width) ++ ", " ++ show(height) ++ ")."
+        putStrLn $ "Video has " ++ show frames ++ " frames of dimension("
+                   ++ show width ++ ", " ++ show height ++ ")."
 
         CV.withWindow "Example 2-4" $ \window -> do
           CV.createTrackbar window "Position" 0 frames (void <$> CV.videoCaptureSetI cap CVT.VideoCapPropPosFrames)

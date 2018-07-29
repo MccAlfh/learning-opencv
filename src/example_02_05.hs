@@ -19,7 +19,7 @@ main = do
 
         img <- CV.imdecode CV.ImreadUnchanged <$> B.readFile file
 
-        CV.withWindow "Example 2-5-in" $ \windowIn -> do
+        CV.withWindow "Example 2-5-in" $ \windowIn ->
           CV.withWindow "Example 2-5-out" $ \windowOut -> do
 
             CV.imshow windowIn img
