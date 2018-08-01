@@ -43,3 +43,6 @@ executables:
 
   example_02_07:
     main:                example_02_07.hs
+
+  example_02_10:
+    main:                example_02_10.hs
