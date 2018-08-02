@@ -11,3 +11,5 @@ OpenCV 3
  * [Example 2-5](src/example_02_05.hs) Loading and then smoothing an image before it is displayed on the screen.
  * [Example 2-7](src/example_02_07.hs) The Canny edge detector writes its output to a single-channel (grayscale) image.
  * [Example 2-10](src/example_02_10.hs) The same object can load videos from a camera or a file.
+ * [Example 2-11](src/example_02_11.hs) A complete program to read in a color video and write out the log-polar
+
