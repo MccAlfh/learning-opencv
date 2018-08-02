@@ -35,10 +35,10 @@ main = do
     where
       help = do
         name <- getProgName
-        putStrLn "xample 2-10. The same object can load videos from a camera or a file"
+        putStrLn "Example 2-10. The same object can load videos from a camera or a file"
         putStrLn "Call:"
         putStrLn $ name ++ " <path/filename>"
         putStrLn "or, read from camera:"
         putStrLn name
         putStrLn "For example:"
-        putStrLn $ name ++ " ./resources/fruits.jpg"
+        putStrLn $ name ++ " ./resources/tree.avi"

@@ -28,8 +28,8 @@ main = do
             let img' :: CV.Mat ('S ['D, 'D]) ('S 3) ('S Word8)
                 img' = CV.exceptError $ CV.coerceMat img
 
-                imgOut = CV.exceptError $ CV.gaussianBlur (V2 5 5 :: V2 Int32) 3 3 img'
-                imgOut' = CV.exceptError $ CV.gaussianBlur (V2 5 5 :: V2 Int32) 3 3 imgOut
+                imgOut = CV.exceptError $ CV.gaussianBlur (V2 5 5 :: V2 Int32) 3 3 Nothing img'
+                imgOut' = CV.exceptError $ CV.gaussianBlur (V2 5 5 :: V2 Int32) 3 3 Nothing imgOut
 
             CV.imshow windowOut imgOut'
 

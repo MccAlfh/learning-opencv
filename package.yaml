@@ -46,3 +46,6 @@ executables:
 
   example_02_10:
     main:                example_02_10.hs
+
+  example_02_11:
+    main:                example_02_11.hs
